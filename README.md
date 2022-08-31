@@ -1,8 +1,8 @@
-# qr-code-component
+# QR code component
 
-## Frontend Mentor - QR code component
+### Challenge Frontend Mentor
 
-<br/>
+#
 
 ### [Ver en vivo 🚀](https://y-erazo.github.io/qr-code-component/)
 <br/>

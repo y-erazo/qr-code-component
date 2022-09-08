@@ -4,7 +4,7 @@
 
 #
 
-### [Ver en vivo 🚀](https://y-erazo.github.io/qr-code-component/)
+### [Ver en vivo 🚀](https://yazmin-erazo.github.io/qr-code-component/)
 <br/>
 
 ![card](https://user-images.githubusercontent.com/54871751/187773964-68a210d4-8165-4619-94a3-99776d977c48.png)
@@ -23,7 +23,7 @@ Construir este componente de código QR y hacer que se vea lo más cerca posible
 <br/>
 
 ---
-Con ❤️ por [Yazmin-Erazo](https://github.com/y-erazo) 😊
+Con ❤️ por [Yazmin-Erazo](https://github.com/yazmin-erazo) 😊
 
 <br/>
 <br/>

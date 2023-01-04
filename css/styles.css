@@ -1,5 +1,5 @@
 @import url(https://use.fontawesome.com/releases/v5.0.6/css/all.css);
-@import url(https://fonts.googleapis.com/css?family=Oswald:400|Raleway:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,300;0,400;0,700;1,400;1,700&display=swap);
 
 *,
 *:before,
@@ -21,16 +21,17 @@ body {
 }
 
 h1 {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Noto Sans', sans-serif;
     text-align: center;
+    font-weight: 400;
 }
 
 a {
-    color: #a2ed56;
+    color: #83e4e2;
 }
 
 a:hover {
-    color: #83e4e2;
+    color: #a2ed56;
     text-decoration: none;
 }
 
@@ -58,11 +59,13 @@ p {
     width: 1px;
 }
 
+.container-challenges {
+    margin: 4rem 0;
+}
 
 
-/************************************************/
-/****************** NAVIGATION ******************/
-/************************************************/
+/* ---------- NAVIGATION ---------- */
+
 nav {
     background: #e5e5e5;
     color: #1d1f20;
@@ -84,7 +87,7 @@ nav input {
 nav label {
     cursor: pointer;
     display: block;
-    font: 2em/1 'Oswald', sans-serif;
+    font: 2em/1 'Noto', sans-serif;
     padding: 0.5em;
 }
 
@@ -141,7 +144,7 @@ nav input[type=checkbox]:checked + label #menu-icon:after {
 }
 
 
-/*** MENU ***/
+/* ---------- MENU ---------- */
 /* Overlay */
 nav input:checked ~ #overlay {
     background: #e5e5e5;
@@ -178,7 +181,7 @@ nav ul > li {
 }
 
 nav ul a {
-    color: #1d1f20!important;
+    color: #1d1f20;
     text-decoration: none;
 }
 
@@ -186,9 +189,21 @@ nav ul a:hover {
     text-decoration: underline;
 }
 
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
 /* Social Media */
-nav ul#social-media > li {
+/* nav ul#social-media > li {
     display: inline-block;
     font-size: 1.5em;
+    margin: 0.5em;
+} */
+ul#social-media > li {
+    display: inline-block;
+    font-size: 2em;
     margin: 0.5em;
 }
